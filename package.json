@@ -4,5 +4,20 @@
   "main": "index.js",
   "repository": "ssh://git@github.com/RyotaSugawara/babel-plugin-symnolize-id-string.git",
   "author": "sugawara-ryota <sugawara_ryota@cyberagent.co.jp>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "babel-plugin-tester": "^9.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  }
 }
